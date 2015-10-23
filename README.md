@@ -53,6 +53,7 @@ firefox                           \
 font-inconsolata-dz-for-powerline \
 font-inconsolata-g-for-powerline  \
 font-inconsolata-lgc              \
+gitter                            \
 google-chrome                     \
 istat-menus                       \
 iterm2-beta                       \
