@@ -101,6 +101,30 @@ cat <<EOS >> ~/.atom/config.cson
 EOS
 ```
 
+## Dotfiles
+
+### zsh
+
+```
+cd ~
+git clone git@github.com:fcoury/dotzsh.git .zsh
+ln -s .zsh/zshrc .zshrc
+```
+
+### vim
+
+```
+cd ~
+git clone git@github.com:fcoury/dotvim.git .vim
+ln -s .vim/vimrc .vimrc
+
+cd ~/.vim
+git submodule init
+git submodule update
+
+vim +PluginInstall +qall
+```
+
 ## Misc TODOs
 
 - [ ] Enable all controls on Tabs `System Preferences` > `Keyboard` > `Shortcuts` > `All controls`
