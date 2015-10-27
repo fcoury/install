@@ -15,14 +15,15 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ## Install command line tools
 
 ```
-brew install 
-ack                 \
-go 					\
-node                \
-python				\
-ssh-copy-id         \
-tree   				\
-wget                
+brew install \
+ack          \
+fswatch      \
+go           \
+node         \
+python       \
+ssh-copy-id  \
+tree         \
+wget
 ```
 
 ## Vim
@@ -60,11 +61,12 @@ iterm2-beta                       \
 laullon-gitx                      \
 launchbar                         \
 mailplane                         \
-marked							  \
+marked                            \
 sizeup                            \
 slack                             \
 spotify                           \
-textexpander
+textexpander                      \
+trickster
 ```
 
 ## Git
@@ -132,7 +134,7 @@ vim +PluginInstall +qall
 - [ ] Fix resolution to `Scaled` on `System Preferences` > `Display` (for MacBook Pro)
 - [ ] Disable QUIC in Chrome - [http://kb.fortinet.com/kb/documentLink.do?externalID=FD36680](link)
 - [ ] Configure Dropbox
-	- [ ] Open Dropbox app and login
-	- [ ] Pause syncing
-	- [ ] Copy an existing `~/Dropbox` folder from a source (ie, `rsync -azvh 'mbp.local:~/Dropbox' .`)
-	- [ ] Resume syncing
+  - [ ] Open Dropbox app and login
+  - [ ] Pause syncing
+  - [ ] Copy an existing `~/Dropbox` folder from a source (ie, `rsync -azvh 'mbp.local:~/Dropbox' .`)
+  - [ ] Resume syncing
