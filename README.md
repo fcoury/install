@@ -21,6 +21,8 @@ fswatch      \
 go           \
 node         \
 python       \
+rbenv        \
+ruby-build   \
 ssh-copy-id  \
 tree         \
 wget
