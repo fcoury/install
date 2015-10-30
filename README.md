@@ -134,7 +134,7 @@ vim +PluginInstall +qall
 
 - [ ] Enable all controls on Tabs `System Preferences` > `Keyboard` > `Shortcuts` > `All controls`
 - [ ] Fix resolution to `Scaled` on `System Preferences` > `Display` (for MacBook Pro)
-- [ ] Disable QUIC in Chrome - [http://kb.fortinet.com/kb/documentLink.do?externalID=FD36680](link)
+- [ ] Disable QUIC in Chrome - [link](http://kb.fortinet.com/kb/documentLink.do?externalID=FD36680)
 - [ ] Configure Dropbox
   - [ ] Open Dropbox app and login
   - [ ] Pause syncing
