@@ -83,7 +83,8 @@ git config --global core.editor "atom -w"               && \
 git config --global color.ui true                       && \
 git config --global push.default simple                 && \
 git config --global alias.st "status -sb"               && \
-git config --global alias.co "checkout"
+git config --global alias.co "checkout"                 && \
+git config --global pull.rebase true
 ```
 
 ## Atom
