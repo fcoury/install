@@ -66,6 +66,7 @@ mailplane                         \
 marked                            \
 sizeup                            \
 slack                             \
+skitch                            \
 spotify                           \
 textexpander                      \
 trickster
