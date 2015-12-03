@@ -69,7 +69,9 @@ slack                             \
 skitch                            \
 spotify                           \
 textexpander                      \
-trickster
+trickster                         \
+vagrant                           \
+virtualbox
 ```
 
 ## Git
