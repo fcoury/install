@@ -44,13 +44,19 @@ brew tap caskroom/fonts
 brew tap caskroom/versions
 ```
 
-## Install mac apps & fonts
+### Add dupes
+```
+brew tap homebrew/dupes
+```
+
+### Install mac apps & fonts
 ```
 brew cask install                 \
 1password                         \
 astrill                           \
 atom                              \
 cloudapp                          \
+daisydisk                         \
 divvy                             \
 firefox                           \
 font-inconsolata-dz-for-powerline \
@@ -69,9 +75,15 @@ slack                             \
 skitch                            \
 spotify                           \
 textexpander                      \
+textmate                          \
 trickster                         \
 vagrant                           \
 virtualbox
+```
+
+### Replace OpenSSL
+```
+brew install openssh --with-brewed-openssl --with-keychain-support
 ```
 
 ## Git
@@ -136,17 +148,59 @@ vim +PluginInstall +qall
 
 ## Misc TODOs
 
+### Mac OS X
+
 - [ ] Enable all controls on Tabs `System Preferences` > `Keyboard` > `Shortcuts` > `All controls`
 - [ ] Fix resolution to `Scaled` on `System Preferences` > `Display` (for MacBook Pro)
+- [ ] Show volume menu item - `System Preferences` > `Sound` > `Show volume in menu bar`
+- [ ] Enable feedback when volume is changed - `System Preferences` > `Sound` > `Play feedback when volume is changed`
+
+### Google Chrome
+
 - [ ] Disable QUIC in Chrome - [link](http://kb.fortinet.com/kb/documentLink.do?externalID=FD36680)
+
+### Dropbox
+
 - [ ] Configure Dropbox
   - [ ] Open Dropbox app and login
   - [ ] Pause syncing
   - [ ] Copy an existing `~/Dropbox` folder from a source (ie, `rsync -azvh 'mbp.local:~/Dropbox' .`)
   - [ ] Resume syncing
+
+### iTerm
+
 - [ ] Add color themes to iTerm2 - [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
   - [ ] Go to `Preferences` > `Profiles` > select `Default` > `Colors` > `Import`
   - [ ] Import all Tomorrow themes from `~/code/iTerm2-Color-Schemes`
   - [ ] Select `Tomorrow Night` from dropdown
   - [ ] Go to `Preferences` > `Text`
   - [ ] Change font to `14pt Inconsolata-g for Powerline`
+
+### TextExpander
+
+- [ ] `Preferences` > check `Launch at Login`
+- [ ] `Preferences` > uncheck `Show main window at launch`
+- [ ] `Preferences` > `Sync`
+  - [ ] click `Link to Snippets...`
+  - [ ] choose `~/Dropbox/TextExpander/Settings.textexpandersettings`
+- Add license
+
+### Launchbar
+
+- [ ] Add brew cask applications
+  - [ ] `Index` > `Show Index`
+  - [ ] Select the `Options` tab (righthand side)
+  - [ ] Click `+` > Select `/opt/homebrew-cask/Caskroom`
+- [ ] Expand clipboard capacity
+  - [ ] `Preferences` > `Clipboard` > `Capacity`
+  - [ ] Change to `100 items`
+- [ ] Open at login
+  - [ ] Right click the dock icon
+  - [ ] Select `Options` > `Open at login`
+- [ ] Hide dock icon
+  - [ ] `Preferences` > `Advanced`
+  - [ ] Uncheck `Show Dock Icon`
+
+### Licenses
+
+- [ ] Decrypt LICENSES.md - [https://gist.github.com/fcoury/4890d7831d7e83ba1782](https://gist.github.com/fcoury/4890d7831d7e83ba1782)
