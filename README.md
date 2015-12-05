@@ -145,7 +145,7 @@ vim +PluginInstall +qall
   - [ ] Copy an existing `~/Dropbox` folder from a source (ie, `rsync -azvh 'mbp.local:~/Dropbox' .`)
   - [ ] Resume syncing
 - [ ] Add color themes to iTerm2 - [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
-  - [ ] Go to `Preferences` > `Profiles` > select `Default` > `Import`
+  - [ ] Go to `Preferences` > `Profiles` > select `Default` > `Colors` > `Import`
   - [ ] Import all Tomorrow themes from `~/code/iTerm2-Color-Schemes`
   - [ ] Select `Tomorrow Night` from dropdown
   - [ ] Go to `Preferences` > `Text`
