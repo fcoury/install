@@ -218,4 +218,4 @@ openssl enc -d -aes-256-cbc -in LICENSES.md.enc -out LICENSES.md
 
 ### Licenses
 
-- [ ] Decrypt LICENSES.md - [https://gist.github.com/fcoury/4890d7831d7e83ba1782](https://gist.github.com/fcoury/4890d7831d7e83ba1782)
+- [ ] Decrypt LICENSES.md - `openssl enc -d -aes-256-cbc -in LICENSES.md.enc -out LICENSES.md`
