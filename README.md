@@ -59,6 +59,7 @@ atom                              \
 cloudapp                          \
 daisydisk                         \
 divvy                             \
+fantastical                       \
 firefox                           \
 font-inconsolata-dz-for-powerline \
 font-inconsolata-g-for-powerline  \
