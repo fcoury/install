@@ -146,6 +146,20 @@ git submodule update
 vim +PluginInstall +qall
 ```
 
+## LICENSES.md
+
+### Encrypt
+
+```
+openssl enc -aes-256-cbc -salt -in LICENSES.md -out LICENSES.md.enc
+```
+
+### Decrypt
+
+```
+openssl enc -d -aes-256-cbc -in LICENSES.md.enc -out LICENSES.md
+```
+
 ## Misc TODOs
 
 ### Mac OS X
