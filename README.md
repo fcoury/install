@@ -68,6 +68,7 @@ gitter                            \
 google-chrome                     \
 istat-menus                       \
 iterm2-beta                       \
+jing                              \
 laullon-gitx                      \
 launchbar                         \
 mailplane                         \
@@ -79,6 +80,7 @@ skype                             \
 spotify                           \
 textexpander                      \
 textmate                          \
+the-unarchiver                    \
 trickster                         \
 vagrant                           \
 virtualbox
