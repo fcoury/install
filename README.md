@@ -73,6 +73,7 @@ laullon-gitx                      \
 launchbar                         \
 mailplane                         \
 marked                            \
+screenflow                        \
 sizeup                            \
 slack                             \
 skitch                            \
