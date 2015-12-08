@@ -75,6 +75,7 @@ marked                            \
 sizeup                            \
 slack                             \
 skitch                            \
+skype                             \
 spotify                           \
 textexpander                      \
 textmate                          \
