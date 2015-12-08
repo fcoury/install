@@ -99,7 +99,7 @@ brew install openssh --with-brewed-openssl --with-keychain-support
 git config --global user.name "Felipe Coury"            && \
 git config --global user.email "felipe.coury@gmail.com" && \
 git config --global github.user fcoury                  && \
-git config --global core.editor "atom -w"               && \
+git config --global core.editor "mate -w"               && \
 git config --global color.ui true                       && \
 git config --global push.default simple                 && \
 git config --global alias.st "status -sb"               && \
@@ -219,6 +219,11 @@ openssl enc -d -aes-256-cbc -in LICENSES.md.enc -out LICENSES.md
 - [ ] Hide dock icon
   - [ ] `Preferences` > `Advanced`
   - [ ] Uncheck `Show Dock Icon`
+
+### Jing
+
+- [ ] Go to `More` > `Preferences`
+- [ ] Check `User menubar instead of sun`
 
 ### Licenses
 
