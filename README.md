@@ -74,6 +74,7 @@ launchbar                         \
 mailplane                         \
 marked                            \
 screenflow                        \
+screenhero                        \
 sizeup                            \
 slack                             \
 skitch                            \
