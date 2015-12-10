@@ -22,6 +22,7 @@ hub          \
 go           \
 node         \
 python       \
+redis        \
 rbenv        \
 ruby-build   \
 ssh-copy-id  \
@@ -165,6 +166,14 @@ openssl enc -aes-256-cbc -salt -in LICENSES.md -out LICENSES.md.enc
 
 ```
 openssl enc -d -aes-256-cbc -in LICENSES.md.enc -out LICENSES.md
+```
+
+## Redis instructions
+
+To start:
+
+```
+redis-server /usr/local/etc/redis.conf
 ```
 
 ## Misc TODOs
