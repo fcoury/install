@@ -20,6 +20,8 @@ ack          \
 fswatch      \
 hub          \
 go           \
+jq           \
+mongodb      \
 node         \
 python       \
 redis        \
@@ -86,7 +88,8 @@ textmate                          \
 the-unarchiver                    \
 trickster                         \
 vagrant                           \
-virtualbox
+virtualbox                        \
+visual-studio-code
 ```
 
 ### Replace OpenSSL
