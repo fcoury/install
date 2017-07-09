@@ -113,25 +113,25 @@ git config --global alias.co "checkout"                 && \
 git config --global pull.rebase true
 ```
 
-## Atom
+## VSCode
 
 ### Install sync package
 
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
 ```
-apm install sync-settings
+ext install code-settings-sync
 ```
 
 ### Add sync options
 
-**IMPORTANT:** Remember to change `<TOKEN>` below:
+Add to your `settings.json`:
 
 ```
-cat <<EOS >> ~/.atom/config.cson
-  "sync-settings":
-    personalAccessToken: "<TOKEN>"
-    gistId: "123bcb643391d340bd3b"
-EOS
+    "sync.gist": "b46cc952a1508119dd4b77f6c0dbf05e",
 ```
+
+Download the config using Option+Shift+D
 
 ## Dotfiles
 
