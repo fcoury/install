@@ -19,6 +19,7 @@ brew install \
 ack          \
 fswatch      \
 hub          \
+graphviz     \
 go           \
 jq           \
 mongodb      \
@@ -64,6 +65,7 @@ daisydisk                         \
 divvy                             \
 fantastical                       \
 firefox                           \
+font-fira-code                    \
 font-inconsolata-dz-for-powerline \
 font-inconsolata-g-for-powerline  \
 font-inconsolata-lgc              \
