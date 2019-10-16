@@ -193,6 +193,7 @@ redis-server /usr/local/etc/redis.conf
 ### Google Chrome
 
 - [ ] Disable QUIC in Chrome - [link](http://kb.fortinet.com/kb/documentLink.do?externalID=FD36680)
+- [ ] Install HackerNew - [link](https://github.com/fcoury/HackerNew)
 
 ### Dropbox
 
