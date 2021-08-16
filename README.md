@@ -74,6 +74,21 @@ git config --global alias.st "status -sb"               && \
 git config --global alias.co "checkout"
 ```
 
+### Setup hub
+
+```
+touch ~/.config/hub
+```
+
+Create a Personal Access Token on GitHub and create a file with the following content:
+
+```
+github.com:
+ - user: fcoury
+   oauth_token: PASTE_YOUR_TOKEN_HERE
+   protocol: https
+```
+
 ## Dotfiles
 
 ### zsh
