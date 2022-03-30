@@ -26,6 +26,7 @@ node         \
 python       \
 ssh-copy-id  \
 tree         \
+starship     \
 wget
 ```
 
@@ -93,7 +94,7 @@ github.com:
 
 ### zsh
 
-```
+```shell
 cd ~
 git clone git@github.com:fcoury/dotzsh.git .zsh
 ln -s .zsh/zshrc .zshrc
@@ -101,7 +102,7 @@ ln -s .zsh/zshrc .zshrc
 
 ### vim
 
-```
+```shell
 cd ~
 git clone git@github.com:fcoury/dotvim.git .vim
 ln -s .vim/vimrc .vimrc
@@ -111,6 +112,16 @@ git submodule init
 git submodule update
 
 vim +PluginInstall +qall
+```
+
+### config
+
+```shell
+cd ~
+git clone git@github.com:fcoury/config.git config
+cd config
+./setup.sh
+cd -
 ```
 
 ## LICENSES.md
