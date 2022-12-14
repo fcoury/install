@@ -142,7 +142,7 @@ openssl enc -aes-256-cbc -salt -in LICENSES.md -out LICENSES.md.enc
 ### Decrypt
 
 ```
-openssl enc -d -aes-256-cbc -in LICENSES.md.enc -out LICENSES.md
+openssl enc -md md5 -d -aes-256-cbc -in LICENSES.md.enc -out LICENSES.md
 ```
 
 ## Misc TODOs
